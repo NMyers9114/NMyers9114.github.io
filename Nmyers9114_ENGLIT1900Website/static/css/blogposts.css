@@ -1,0 +1,91 @@
+body{
+    font-family: 'Georgia', serif;
+    background-color: #fffad8;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+h1{
+    color: #2c3e50;
+    text-align: center;
+}
+
+p{
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 20px;
+    color: #34495e;
+}
+
+blockquote{
+    font-style: italic;
+    color: #7f8c8d;
+    border-left: 4px solid #bdc3c7;
+    margin: 20px;
+    padding-left: 15px;
+}
+
+ul{
+    list-style-type: square;
+    margin: 20px;
+    padding-left: 40px;
+    color: #34495e;
+}
+
+li{
+    margin-bottom: 10px;
+}
+
+#top_bar {
+    display: flex;
+    align-items: center;
+    background-color: #7f8c8d;
+    padding: 10px 20px;
+    gap: 40px; /* controls space between title and links block */
+}
+
+#top_bar h3 {
+    margin: 0;
+    margin-right: 40px;
+    font-size: 15px;
+    color: white;
+}
+
+.nav_links {
+    display: flex;
+    align-items: center;   /* keeps links vertically aligned */
+    gap: 20px;
+}
+
+#top_bar a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+#top_bar a:hover {
+    text-decoration: underline;
+}
+
+.image_row {
+    display: flex;
+    gap: 20px;              /* space between images */
+    align-items: center;   /* keeps them aligned nicely */
+}
+
+.image_row img {
+    height: 200px;         /* all images same height */
+    width: auto;           /* width adjusts automatically */
+    object-fit: contain;   /* prevents distortion */
+}
+
+.center_wrapper {
+    width: fit-content;       /* makes div only as wide as images */
+    margin: 0 auto;           /* centers the div horizontally */
+}
+
+.center_wrapper h3{
+    text-align: center;
+    margin-bottom: 20px;
+}
